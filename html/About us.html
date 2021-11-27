@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>About us</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <ul>
+            <li><a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a>ABOUT US</a></li>
+            <li class="AR" onclick="op()">GENRE<i class="fas fa-chevron-right" id="arr" style="background-color: transparent;"></i></li>
+            <div id="dropdow" style="display: none;">
+                   <ul>
+                     <li><a href="2.html">Anime</a></li>
+                     <li><a href="3.html">Series</a></li>
+                </ul>     
+            </div>
+             <li> <a href="#Contact">CONTACT US</a></li>
+              <li><a href="#Price">SUBSCRIPTION</a></li>
+        </ul>
+    </div>
+<section class="Navbar" id="top">
+    <header>
+        <div class="navi">
+            <div class="logo">
+                <a href="PRS.html"><i class='bx bx-movie-play bx-tada'></i><b class="extra">C</b>inephile's <b class="extra">H</b>ub</a>
+            </div>
+            <div class="nav">
+                <ul>
+                <li><a href="PRS.html" id="Home" onclick="hom()" class="Hov">Home</a></li>
+                <li> <a href="About us.html" class="Hov">ABOUT US</a></li>
+                <li><a href="#" id="Genres" class="Hov">Genres<i class="fa fa-caret-down"></i></a>
+                    <div class="dropdown">
+                        <ul>
+                        <li><a href="2.html">Anime</a></li>
+                        <li><a href="3.html">Series</a></li>
+                        </ul>     
+                    </div>
+                </li>
+                <li><a href="PRS.html#Contact" onclick="cont()" id="contact-head" class="Hov">CONTACT US</a></li>
+                <li><a href="PRS.html#Price" onclick="pri()" id="pri-head" class="Hov">Subscription</a> </li>
+            </ul>
+            </div>
+        </div>
+        <div class="serchItem">
+            <div class="search">
+                   <input type="text" placeholder="Type to search">
+                   <i class="fas fa-search"></i>
+            </div>
+            <a href="signup.html">
+                <button  class="btn">Login</button>
+            </a>       
+         </div>
+         <div class="menu-toggle" id="hamburger-menu" onclick="openNav()">
+            <span>menu</span><i class="fas fa-bars"></i>
+         </div>
+    </header>
+</section>
+    <div class="about-section banner-image">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p></p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="../image/sujan.jpg" alt="Jane">
+            <div class="container">
+              <h2>Sujan Sharma</h2>
+              <p class="title">Designer</p>
+              <p>Lives in Kawasoti</p>
+              <p>such_csit2076@lict.edu.np</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="../image/a.jpg" alt="Mike">
+            <div class="container">
+              <h2>Anup Khand</h2>
+              <p class="title">Codder</p>
+              <p>Lives in Gaindakot</p>
+              <p>bakh_csit2076@lict.edu.no</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <i class="far fa-user" style="font-size: 200px;"></i>
+            <!-- <img src="/w3images/team3.jpg" alt="John" style="width:100%"> -->
+            <div class="container">
+              <h2>Keshav Lamsal</h2>
+              <p class="title">Founder and Designer</p>
+              <p>Lives in Chanauli</p>
+              <p>kela_csit2076@lict.edu.np/p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
